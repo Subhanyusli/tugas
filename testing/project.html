@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>example</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    
+    <link href="project.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('#nav-icon').click(function(){
+            $('ul').toggleClass('show');
+        });
+    });
+    $(document).ready(function(){
+        $('#nav-link').click(function(){
+            $('ul').toggleClass('hide');
+            
+        })
+        });
+    </script>
+</head>
+<body>
+   <header class="header">
+        <nav class="nav container">
+          <i class='bx bx-list-ul' id="nav-icon"></i>
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">
+                           About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#features" class="nav-link">
+                            Features
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#product" class="nav-link">
+                            Products
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            Contact
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+        </nav>
+   </header>
+    <!-- content 1 -->
+    <div class="content1" id="home">
+        <img src="mxw_640,f_auto (1).avif" class="gambar1" width="35%" height="35%" >
+            <div class="text1">
+                <h3> Get ready to immerse yourself in a world of fabulous music </h3>
+                <p> when you buy JBL Live 660NC Over-Ear Adaptive Noise Cancellation Wireless Headphone with Mic that enhances your music listening experience.</p>
+            </div>
+    </div>
+    <!-- content 2 -->
+    <div class="content2" id="about">
+        <div class="text2">
+            <h3>Why buy JBL Live 660NC Over-Ear Adaptive Noise Cancellation Wireless Headphone with Mic</h3>
+        </div>
+        <img src="mxw_1440,f_auto (1).avif" alt="" class="gambar2" width="35%" height="35%">
+        <div class="text2a">
+            <ul>
+                <li>
+                    Adaptive Noise Cancellation along with Ambient Aware function
+                </li>
+                <li>
+                    JBL Signature Sound punctuated with enhanced bass
+                </li>
+                <li>
+                    Music Playtime of up to 50 hours with BT on and ANC off
+                </li>
+                <li>
+                    Voice Assistant support for ease of usage
+                </li>
+                <li>
+                    TalkThru allows you to have quick chats without removing your headphone
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- content 3 -->
+    <div class="content3" id="features">
+        <h3 class="text3">Key Features</h3>
+        <img src="mxw_1440,f_auto (4).avif" alt="" class="gambar3" width="90%" height="90%">
+    </div>
+    <!-- content 4 -->
+    <div class="content4" id="product">
+        <h3 class="text4">Our Awesome Products</h3>
+        <img src="mxw_1440,f_auto (5).avif" alt="tes" class="gambar4" width="90%" height="90%">
+        <table border="solid" 10px >
+            <tr>
+            <p class="text4">JBL Live 660NC</p>
+            <h3 class="text4"> Discount 33%</h3>
+            <s class="text4">Rp. 2.600.600</s>
+            <p class="text4">Rp. 2.002.000</p>
+          <button>buy</button>
+            </tr>
+        </table>
+    </div>
+    <!-- content5 -->
+    <div class="content5" id="contact">
+        <h3 class="text5">Contact Us</h3>
+    </div>
+    <footer>
+        <p class= "last">
+            Phone:+880172871492
+        </p>
+        <p class="last">
+            Email:random@random.com
+        </p>
+    </footer>
+</body>
+<script> src="project.js" </script>
+</html>
